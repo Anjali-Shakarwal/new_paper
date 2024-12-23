@@ -1,0 +1,945 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>news paper</title>
+    <link rel="shortcut icon" href="./assets/image/svg/discord.svg" type="image/x-icon">
+    <link rel="stylesheet" href="./assets/media.css">
+    <link rel="stylesheet" href="./assets/root.css">
+    <link rel="stylesheet" href="./assets/style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.css"
+        integrity="sha512-yHknP1/AwR+yx26cB1y0cjvQUMvEa2PFzt1c9LlS4pRQ5NOTZFWbhBig+X9G9eYW/8m0/4OXNx8pxJ6z57x0dw=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css"
+        integrity="sha512-17EgCFERpgZKcm0j0fEq1YCJuyAWdz9KUtv1EjVuaOz8pDnh/0nZxmU6BBXwaaxqoi9PQXnRWqlcDB027hgv9A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script defer src="./assets/nav.js"></script>
+</head>
+
+<body class="bg_img">
+    <div class="bg_black">
+        <marquee scrollamount="10">
+            <div class="d-flex gap-5 py-3">
+                <div class="d-flex gap-2 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">p</p>
+                    <button class="fw-normal fs_xsm red_btn ff_noto">-1.01%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">Shanghai</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.87%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">ftse 100</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.13%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">ASD 100</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.13%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">brent crude oil</p>
+                    <button class="fw-normal fs_xsm red_btn ff_noto">-0.2 4%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">DSC</p>
+                    <button class="fw-normal fs_xsm red_btn ff_noto">-0.24%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">AXD 100</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.13%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">Eeuro/doller</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.03%</button>
+                </div>
+                <div class="d-flex gap-2 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">p</p>
+                    <button class="fw-normal fs_xsm red_btn ff_noto">-1.01%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">Shanghai</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.87%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">ftse 100</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.13%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">ASD 100</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.13%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">brent crude oil</p>
+                    <button class="fw-normal fs_xsm red_btn ff_noto">-0.2 4%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">DSC</p>
+                    <button class="fw-normal fs_xsm red_btn ff_noto">-0.24%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">AXD 100</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.13%</button>
+                </div>
+                <div class="d-flex gap-2 ps-4 align-items-center">
+                    <p class="fw-normal fs_sm text-white ff_noto pe-2">Eeuro/doller</p>
+                    <button class="fw-normal fs_xsm yellow_btn ff_noto">+0.03%</button>
+                </div>
+            </div>
+        </marquee>
+    </div>
+    <header class="border_bottom py-3">
+        <div class="container">
+            <div class="row mt-lg-3 align-items-center">
+                <div class=" col-sm-6 col-12">
+                    <div
+                        class=" d-flex justify-content-lg-end justify-content-sm-start justify-content-center text-sm-center align-items-center">
+                        <a href="#">
+                            <p class="fw-normal fs_24 text-black py-1 py-sm-0 ff_ModernoFBComp">Hustlin' Hardos</p>
+                        </a>
+                    </div>
+                </div>
+                <div class=" col-sm-6 col-12 ">
+                    <div
+                        class="d-flex  flex_wrap gap-sm-4 gap-2 align-items-center justify-content-sm-end justify-content-center text-center pb-3 pb-sm-0">
+                        <a href="https://discord.com/servers"><img src="./assets/image/svg/discord.svg"
+                                alt="discord.svg"></a>
+                        <a href="https://x.com/twitt_login"> <img src="./assets/image/svg/twiter.svg"
+                                alt="twiter.svg"></a>
+                        <a href="https://www.instagram.com/accounts/login/?hl=en"><img
+                                src="./assets/image/svg/insta.svg" alt="insta.svg"></a>
+                        <a href="https://www.merriam-webster.com/dictionary/mark"><img src="./assets/image/svg/mark.svg"
+                                alt="mark.svg"></a>
+                        <a
+                            href="https://www.meesho.com/?srsltid=AfmBOoosOxpYaOeVPvxzfpbV2Y3AXZc_tpFF7HuDI2ygM73g32oEhGiT"><img
+                                src="./assets/image/svg/Group.svg" alt="Group.svg"></a>
+                        <button class="Connect_Wallet_btn fw-semibold fs_14 ff_noto text-uppercase">Connect
+                            Wallet</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class=" border_bottom scroll">
+            <div class="container ">
+                <div class="d-flex flex-wrap gap-2 align-items-center justify-content-center text-uppercase">
+                    <div class="border_left ">
+                        <p class="fw-normal fs_16 ff_noto ps-3 white_space">About us</p>
+                    </div>
+                    <div class="border_left ">
+                        <p class="fw-normal fs_16 ff_noto ps-3">Minting</p>
+                    </div>
+                    <div class="border_left ">
+                        <p class="fw-normal fs_16 ff_noto ps-3">Roadmap</p>
+                    </div>
+                    <div class="border_left ">
+                        <p class="fw-normal fs_16 ff_noto ps-3">Team</p>
+                    </div>
+                    <div class="border_left border_right">
+                        <p class="fw-normal fs_16 ff_noto ps-3 pe-3">FAQs</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="border_bottom">
+            <div class="text-center">
+                <h1 class="fw-normal fs_157 ff_mod my-3 my-lg-0 py-lg-4 ff_ModernoFBComp text-stroke drop_shadow">THE HUSTLIN’ HARDOS.</h1>
+            </div>
+        </section>
+        <section class="border_bottom">
+            <img src="./assets/image/png/header_img.png" alt="header_img.png" width="100%">
+        </section>
+        <section class="border_bottom">
+            <div class="container">
+                <div class="d-flex align-items-center  py_xl_67 py-lg-5 py-md-4 py-sm-3 py-3">
+                    <p class="fw-normal fs_72 ff_noto line_h100 max_w1140 drop_shadow">“BREAKING NEWS: Hustlin Hardos set to launch
+                        the most anticipated
+                        NFT project of 2022"</p>
+                </div>
+            </div>
+        </section>
+        <section class="border_bottom">
+            <div class="container">
+                <div
+                    class="row py-5 py-md-0 align-items-center border_left px-3 flex-column-reverse flex-md-row py-lg-0">
+                    <div class="col-lg-6 col-md-5 col-sm-10 col-12 mb-4 mb-md-0 pt- pt-md-0 my-5">
+                        <p class="fw-normal fs_16 ff-noto">March 1, 2022 by Editor Hardo</p>
+                        <p class="fw-normal fs_18 mt-lg-3 ff-noto line_h20">
+                            Hustlin' Hardos is a collection of 9,999 NFT characters on the Ethereum Blockchain, inspired
+                            by the
+                            business/finance world, hustler culture, and web3 aesthetics.
+
+                            Each Hustlin' Hardo is a completely original and unique combination of hundreds of potential
+                            attributes such as luxury watches, clothing, or accessories - all with provable degrees of
+                            rarity.
+                            The collection features truly unique and powerful artwork, while offering its holders
+                            first-of-its-kind utility. Your Huslin’ Hardo NFT is your gateway to The Boardroom, one of
+                            the most
+                            rewarding and engaging online communities.
+                        </p>
+                        <div class="pb-md-5">
+                            <a href="#" class="fw-normal fs-16 mt-lg-3 ff-noto border_bottom text-black">Read
+                                More...</a>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-md-7 col-sm-10 col-12">
+                        <img class="border_right border_left" src="./assets/image/png/Editor_Hardo.png"
+                            alt="Editor Hardo" width="100%">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class=" border_bottom ">
+            <div class="container">
+                <div
+                    class="d-flex align-items-cenetr justify-content-between my_xl_90 py-lg-5 py-xl-0 py-md-4 py-sm-4 py-3">
+                    <div class=" ">
+                        <p class="fw-lighter fs_80 text-uppercase ff_perpet drop_shadow">Latest Tweets</p>
+                    </div>
+                    <div class="d-flex gap-5">
+                        <img class="prev cursor_p arrow_w20" src="./assets/image/svg/pre.svg" alt="pre.svg" width="20">
+                        <img class="next arrow_w20 cursor_p" src="./assets/image/svg/next.svg" alt="next.svg "
+                            width="20">
+                    </div>
+                </div>
+            </div>
+            <div class="border_top ">
+                <div class="container">
+                    <div class="row">
+                        <div class="responsive border_left border_right px-0">
+                            <div class=" border_left py-3 ps-4">
+                                <p class="fw-semibold fs_36">Etiam eget</p>
+                                <div class="d-flex gap-3 mt-lg-2">
+                                    <img src="./assets/image/svg/Vector.svg" alt="Vector.svg">
+                                    <a href="#">
+                                        <p class="fw-normal fs_14 text-black">23/02/2022</p>
+                                    </a>
+                                </div>
+                                <p class="mt-lg-2 max_w307">Diam tellus arcu, amet ornare nulla ut scelerisque et.
+                                    Cum
+                                    porta
+                                    ultrices quam in.</p>
+                                <div>
+                                    <a href="#" class="fw-normal fs-16 mt-lg-3 ff_noto border_bottom text-black">Read
+                                        More...
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="border_left py-3 ps-4">
+                                <p class="fw-semibold fs_36">Venenatis.</p>
+                                <div class="d-flex gap-3 mt-lg-2">
+                                    <img src="./assets/image/svg/Vector.svg" alt="Vector.svg">
+                                    <a href="#">
+                                        <p class="fw-normal fs_14 text-black">23/02/2022</p>
+                                    </a>
+                                </div>
+                                <p class="mt-lg-2 max_w307">Tortor dolor ultrices mauris aliquam feugiat amet ultrices
+                                    facilisi. Venenatis.</p>
+                                <div>
+                                    <a href="#" class="fw-normal fs-16 mt-lg-3 ff_noto border_bottom text-black">Read
+                                        More...
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="border_left py-3 ps-4">
+                                <p class="fw-semibold fs_36">Quis vulputate.</p>
+                                <div class="d-flex gap-3 mt-lg-2">
+                                    <img src="./assets/image/svg/Vector.svg" alt="Vector.svg">
+                                    <a href="#">
+                                        <p class="fw-normal fs_14 text-black">23/02/2022</p>
+                                    </a>
+                                </div>
+                                <p class="mt-lg-2 max_w307">Vestibulum at gravida amet ullamcorper a ipsum laoreet
+                                    tortor.
+                                    Et tortor vel arcu ac.</p>
+                                <div>
+                                    <a href="#" class="fw-normal fs-16 mt-lg-3 ff_noto border_bottom text-black">Read
+                                        More...
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="border_left py-3 ps-4">
+                                <p class="fw-semibold fs_36">Quis vulputate.</p>
+                                <div class="d-flex gap-3 mt-lg-2">
+                                    <img src="./assets/image/svg/Vector.svg" alt="Vector.svg">
+                                    <a href="#">
+                                        <p class="fw-normal fs_14 text-black">23/02/2022</p>
+                                    </a>
+                                </div>
+                                <p class="mt-lg-2 max_w307">Vestibulum at gravida amet ullamcorper a ipsum laoreet
+                                    tortor.
+                                    Et tortor vel arcu ac.</p>
+                                <div>
+                                    <a href="#" class="fw-normal fs-16 mt-lg-3 ff_noto border_bottom text-black">Read
+                                        More...
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="border_left py-3 ps-4">
+                                <p class="fw-semibold fs_36">Quis vulputate.</p>
+                                <div class="d-flex gap-3 mt-lg-2">
+                                    <img src="./assets/image/svg/Vector.svg" alt="Vector.svg">
+                                    <a href="#">
+                                        <p class="fw-normal fs_14 text-black">23/02/2022</p>
+                                    </a>
+                                </div>
+                                <p class="mt-lg-2 max_w307">Vestibulum at gravida amet ullamcorper a ipsum laoreet
+                                    tortor.
+                                    Et tortor vel arcu ac.</p>
+                                <div>
+                                    <a href="#" class="fw-normal fs-16 mt-lg-3 ff_noto border_bottom text-black">Read
+                                        More...
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="border_bottom">
+            <div class="container">
+                <div class="my_xl_90 py-xl-0 py-lg-5 py-md-4 py-sm-4 py-3">
+                    <p class="fw-normal fs_80 drop_shadow ff_noto">Minting</p>
+                </div>
+            </div>
+        </section>
+        <section class="border_bottom">
+            <div class="container">
+                <div
+                    class="row align-items-center border_left justify-content-between flex-column-reverse flex-md-row py-5 py-lg-0">
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <div>
+                            <p class="fs_16 fw-normal ff_noto mt-3 line_h20">Most of the Hustlin’ Hardos first
+                                experienced NFTs
+                                via
+                                other
+                                successful projects like NBA
+                                TopShot, where revealing your
+                                newly minted item invoked the same emotions as opening up that first pack of baseball
+                                cards.
+                                NFTs have allowed us to
+                                enjoy those feelings once again while also empowering communities through shared
+                                ownership.
+                                The space has seen
+                                incredible growth over the past year, and it is our belief that we are in the very early
+                                innings of the paradigm shift
+                                that will be powered by web3.
+                            </p>
+                        </div>
+                        <button class="miniting_card my-lg-3m mt-3">
+                            <div class="d-flex gap-4 align-items-center ">
+                                <p class="fw-semibold fs_36  ps-4 ">-</p>
+                                <p class="fw-semibold fs_36 border_left ps-4">100</p>
+                                <p class="fw-semibold fs_36 border_left ps-4 pe-4 ">+</p>
+                            </div>
+                        </button>
+                        <div class="mt-4">
+                            <button class="fw-semibold fs_14 Mint_NOW_btn text-uppercase">Mint NOW</button>
+                        </div>
+                        <p class="clr_green fw-semibold fs_18 mt-4">Time Left</p>
+                        <p id="demo" class="ff_noto fw-semibold fs_36 clr_red mb-2 mb-lg-0"></p>
+                    </div>
+                    <div class="col-lg-6 col-md-6 col-12">
+                        <img class="border_right border_left w-100" src="./assets/image/png/minting.png"
+                            alt="minting.png" width="100">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="border_bottom ">
+            <div class="container">
+                <div class="row align-items-center justify-content-center text-center py-3 py-lg-5">
+                    <div class="col-lg-3 col-6 col-md-4">
+                        <p class="fw-normal fs_24 ff_noto">Etiam eget</p>
+                        <p class="fw-semibold fs_36 ff_noto">42</p>
+                    </div>
+                    <div class="col-lg-3 col-6 col-md-4">
+                        <p class="fw-normal fs_24 ff_noto">Tristique.</p>
+                        <p class="fw-semibold fs_36 ff_noto">42</p>
+                    </div>
+                    <div class="col-lg-3 col-6 col-md-4">
+                        <p class="fw-normal fs_24 ff_noto">Aliquet ac.</p>
+                        <p class="fw-semibold fs_36 ff_noto">42</p>
+                    </div>
+                    <div class="col-lg-3 col-6 col-md-12 mt-md-3 mt-lg-0">
+                        <p class="fw-normal fs_24 ff_noto">Tincidunt.</p>
+                        <p class="fw-semibold fs_36 ff_noto">42</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="border_bottom">
+            <div class="container">
+                <div class="my_xl_90 py-lg-5 py-xl-0 py-md-4 py-4">
+                    <p class="ff_noto fw-normal fs_80 text-black text-nowrap drop_shadow">RoadMap
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="border_bottom">
+            <div class="container">
+                <div
+                    class="row py_xl_90 border_left_block border_left_none border_right py-lg-5 py-md-4 py-4 position-relative timeline_line justify-content-lg-center justify-content-start">
+
+                    <div class="col-lg-6 col-12">
+                    </div>
+                    <div class="col-lg-6 position-relative col-12">
+                        <img src="./assets/image/png/road_map_img.png" alt="road_map_img.png"
+                            class="timelineimg_1 w_59">
+                        <div class="ms-lg-5 ps-lg-3 ms-md-4 ps-md-3  ms-5">
+                            <p class="ff_noto fw-normal fs_14 text-black">Phase 1</p>
+                            <p class="ff_noto fw-semibold fs_36 text-black py-2">Community Building</p>
+                            <p class="ff_noto fw-normal fs_16 text-black">The concept of Hustlin’ Hardos was
+                                born a
+                                few short weeks ago and we’re currently focused
+                                on the most important aspect
+                                of the project - COMMUNITY. We are organizing giveaways and events to spread the
+                                word
+                                around what will be one of the
+                                most exciting NFT projects so far. We also aim to reward those driving early
+                                engagement
+                                for the project in the form of
+                                white-list and pre-sale access to the official Hustlin’ Hardo drop. Join us on
+                                our
+                                Discord channel to see what we are
+                                all about!</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 col-12 mt-4 mt-md-5 mt-lg-0 position-relative">
+                        <img src="./assets/image/png/road_map_img.png" alt="road_map_img.png"
+                            class="timelineimg_2 w_59">
+                        <div class="ps-lg-4 ms-lg-3 ms-md-4 ps-md-3 ms-5">
+                            <p class="ff_noto fw-normal fs_14 text-black">Phase 2</p>
+                            <p class="ff_noto fw-semibold fs_36 text-black py-2">minting event</p>
+                            <p class="ff_noto fw-normal fs_16 text-black max_w_460">Hustlin’ Hardos can be
+                                minted
+                                and are revealed to the world. There will only ever be 9,999 Hustlin’ Hardos, so
+                                this is
+                                your chance to get your hands on this unique collectible item, which will become
+                                an
+                                integral part of your online
+                                identity</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6  col-12  ">
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                    </div>
+                    <div class="col-lg-6 position-relative mt-4 mt-md-5 mt-lg-0 col-12 ">
+                        <img src="./assets/image/png/road_map_img.png" alt="road_map_img.png"
+                            class="timelineimg_1 w_59">
+                        <div class="ms-lg-5 ps-lg-3 ms-md-4 ps-md-3  ms-5">
+                            <p class="ff_noto fw-normal fs_14 text-black">Phase 3</p>
+                            <p class="ff_noto fw-semibold fs_36 text-black py-2">Real-life Raffles</p>
+                            <p class="ff_noto fw-normal fs_16 text-black">We will be raffling real-life versions
+                                of
+                                some of the luxury items worn by Hustlin’ Hardos. For example, one week after
+                                the minting event is sold out, we will raffle a Rolex GMT “Batman” among the
+                                lucky
+                                holders of Hustlin' Hardos wearing
+                                that specific watch - so be on the lookout for characters who hold items you
+                                would
+                                like to own. Each month, we will
+                                announce another similar raffle, where Hustlin’ Hardos will get the chance to
+                                win
+                                items worn by their favorite NFTs</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 position-relative mt-4 mt-md-5 mt-lg-0 col-12">
+                        <img src="./assets/image/png/road_map_img.png" alt="road_map_img.png"
+                            class="timelineimg_2 w_59">
+                        <div class="ps-lg-4 ms-lg-3 ms-md-4 ms-5 ps-md-3">
+                            <p class="ff_noto fw-normal fs_14 text-black">Phase 4</p>
+                            <p class="ff_noto fw-semibold fs_36 text-black py-2">no-loss gambling</p>
+                            <p class="ff_noto fw-normal fs_16 text-black max_w_460">Each week, we will organize
+                                free
+                                to enter no-loss gambling, with 25% of royalties being distributed as prize pool
+                                in
+                                events such as marble races or blackjack/poker tournaments. Imagine being able
+                                to
+                                bet on your Hustlin’ Hardo in a
+                                virtual foot race against your friend’s hardos. Since those events are free to
+                                enter, you can’t lose anything - but you
+                                can win BIG!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                    </div>
+                    <div class="col-lg-6 position-relative mt-4 mt-md-5 mt-lg-0 col-12">
+                        <img src="./assets/image/png/road_map_img.png" alt="road_map_img.png"
+                            class="timelineimg_1 w_59">
+                        <div class="ms-lg-5 ps-lg-3 ms-md-4  ms-5 ps-md-3">
+                            <p class="ff_noto fw-normal fs_14 text-black">Phase 5</p>
+                            <p class="ff_noto fw-semibold fs_36 text-black py-2">Hustlin’ Hardettes</p>
+                            <p class="ff_noto fw-normal fs_16 text-black">The ethos of Hustlin’ Hardos is to
+                                create
+                                an authentic and inclusive community where we would celebrate the quirky
+                                nature of the finance world. With that objective in mind, we will also launch a
+                                brand now collection to celebrate the
+                                Hardettes who are an integral part of this community.</p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 position-relative mt-4 mt-md-5 mt-lg-0 col-12">
+                        <img src="./assets/image/png/road_map_img.png" alt="road_map_img.png"
+                            class="timelineimg_2 w_59">
+                        <div class="ps-lg-4 ms-lg-3 ms-md-4 ms-5 ps-md-3">
+                            <p class="ff_noto fw-normal fs_14 text-black">Phase 6</p>
+                            <p class="ff_noto fw-semibold fs_36 text-black py-2">metaverse integrations</p>
+                            <p class="ff_noto fw-normal fs_16 text-black max_w_460">Both our personal and
+                                professional lives are increasingly moving online. Your Huslin’ Hardo will
+                                become
+                                your gateway to
+                                this new reality, acting as your 3D avatar in the metaverse!</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12 ">
+                    </div>
+
+                    <div class="col-lg-6 col-12">
+                    </div>
+                    <div class="col-lg-6 position-relative mt-4 mt-md-5 mt-lg-0 col-12">
+                        <img src="./assets/image/png/road_map_img.png" alt="road_map_img.png"
+                            class="timelineimg_1 w_59">
+                        <div class="ms-lg-5 ps-lg-3 ms-md-4 ps-md-3 ms-5">
+                            <p class="ff_noto fw-normal fs_14 text-black">Phase 7</p>
+                            <p class="ff_noto fw-semibold fs_36 text-black py-2">future developments</p>
+                            <p class="ff_noto fw-normal fs_16 text-black">It wouldn’t make sense to build one of
+                                the
+                                best online communities and not actively listen to its suggestions. As such,
+                                we also plan to execute against some community-generated ideas, delivering
+                                against
+                                the priorities of those who made
+                                Hustlin’ Hardos a success
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-6 position-relative mt-4 mt-md-5 mt-lg-0 col-12">
+                        <img src="./assets/image/png/road_map_img.png" alt="road_map_img.png"
+                            class="timelineimg_2 w_59">
+                        <div class="ps-lg-4 ms-lg-3 ms-md-4 ps-md-3 ms-5">
+                            <p class="ff_noto fw-normal fs_14 text-black">Phase 8</p>
+                            <p class="ff_noto fw-semibold fs_36 text-black py-2">swapping individual attributes</p>
+                            <p class="ff_noto fw-normal fs_16 text-black max_w_460">Building a wardrobe app where you
+                                can secondary sales</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-6 col-12">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="border_bottom border_top">
+            <div class="container">
+                <div class="d-flex align-items-cenetr justify-content-between">
+                    <div class="my_xl_90 py-lg-5 py-md-4 py-sm-4 py-3 py-xl-0">
+                        <p class="fw-lighter fs_80 ff_noto drop_shadow">Team</p>
+                    </div>
+                    <div class="d-flex gap-5">
+                        <img class=" prev2 cursor_p" src="./assets/image/svg/pre.svg" alt="pre.svg" width="20">
+                        <img class="next2 cursor_p" src="./assets/image/svg/next.svg" alt="next.svg" width="20">
+                    </div>
+        </section>
+        <div class="border_bottom">
+            <div class="container">
+                <div class="bg_team ">
+                    <div class="row slider border_left border_right">
+
+                        <div class="col-lg-6 pe-0 ">
+                            <div class=" border_right h-100 flex-column text-center team_card_bg2 py-md-5 py-4 ">
+                                <img class="m-auto" src="./assets/image/svg/team_1st_img.svg" alt="team_1st_img.svg">
+                                <p class="fw-dark fs_36 clr_hardo ff_900 ff_noto">Executive Hardo</p>
+                                <p class="fw-normal fs_16 w_90">The Hustlin’ Hardos have arrived to the
+                                    metaverse!
+                                    9,999
+                                    Hardos have taken over. Lorem Ipsum is simply dummy text of the
+                                    printing industry.2
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ps-0">
+                            <div class=" border_right h-100 flex-column text-center team_card_bg py-md-5 py-4 ">
+                                <img class="m-auto" src="./assets/image/svg/johnny_banjo.svg" alt="johnny_banjo.svg">
+                                <p class="fw-dark fs_36 clr_jhony ff_900 ff_noto">Johnny Banjo</p>
+                                <p class="fw-normal fs_16 w_90">The Hustlin’ Hardos have arrived to the
+                                    metaverse!
+                                    9,999
+                                    Hardos have taken over. Lorem Ipsum is simply dummy text of the
+                                    printing industry.4
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 pe-0 ">
+                            <div class=" border_right h-100 flex-column text-center team_card_bg2 py-md-5 py-4 ">
+                                <img class="m-auto" src="./assets/image/svg/team_1st_img.svg" alt="team_1st_img.svg">
+                                <p class="fw-dark fs_36 clr_hardo ff_900 ff_noto">Executive Hardo</p>
+                                <p class="fw-normal fs_16 w_90">The Hustlin’ Hardos have arrived to the
+                                    metaverse!
+                                    9,999
+                                    Hardos have taken over. Lorem Ipsum is simply dummy text of the
+                                    printing industry.2
+                                </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 ps-0">
+                            <div class=" border_right h-100 flex-column text-center team_card_bg py-md-5 py-4 ">
+                                <img class="m-auto" src="./assets/image/svg/johnny_banjo.svg" alt="johnny_banjo.svg">
+                                <p class="fw-dark fs_36 clr_jhony ff_900 ff_noto">Johnny Banjo</p>
+                                <p class="fw-normal fs_16 w_90">The Hustlin’ Hardos have arrived to the
+                                    metaverse!
+                                    9,999
+                                    Hardos have taken over. Lorem Ipsum is simply dummy text of the
+                                    printing industry.4
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <section class="border_bottom">
+            <div class="container">
+                <div class="my_xl_90 py-lg-5 py-md-4 py-sm-4 py-3 py-xl-0">
+                    <p class="fs_80 fw-normal drop_shadow ff_noto">Faqs</p>
+                </div>
+            </div>
+        </section>
+        <section class="border_bottom ">
+            <div class="container ">
+                <div class="border_right border_left ">
+                    <div class="ac">
+                        <input class="ac-input" id="ac-1" name="ac-1" type="checkbox" />
+                        <label class="ac-label fw-semibold fs_24" for="ac-1">What is an NFT?</label>
+                        <article class="ac-text">
+                            <div class="ac-sub">
+                                <input class="ac-input" id="ac-1" name="ac-1" type="checkbx" />
+                                <label class="px-4  fw-normal fs_16 " for="ac-1">NFT stands for “Non-fungible token,”
+                                    which means that
+                                    it’s a
+                                    unique, digital item with blockchain-managed ownership that
+                                    users can buy, own, and trade. Some NFT’s fundamental function is to be digital art.
+                                    But
+                                    they can also offer additional
+                                    benefits like exclusive access to websites, event tickets, game items, and ownership
+                                    records for physical objects. Think
+                                    of it as a unique piece of art that can also work as a “members-only” card. Hustlin'
+                                    Hardos works like this
+                                </label>
+
+                            </div>
+                        </article>
+                    </div>
+                    <div class="ac">
+                        <input class="ac-input" id="ac-2" name="ac-2" type="checkbox" />
+                        <label class="ac-label fw-semibold fs_24" for="ac-4">How do I get an NFT?</label>
+
+                        <article class="ac-text">
+                            <div class="ac-sub">
+                                <input class="ac-input" id="ac-2" name="ac-2" type="checkbx" />
+                                <label class="px-4 fw-normal fs_16" for="ac-2">NFT stands for “Non-fungible token,”
+                                    which means that
+                                    it’s a
+                                    unique, digital item with blockchain-managed ownership that
+                                    users can buy, own, and trade. Some NFT’s fundamental function is to be digital art.
+                                    But
+                                    they can also offer additional
+                                    benefits like exclusive access to websites, event tickets, game items, and ownership
+                                    records for physical objects. Think
+                                    of it as a unique piece of art that can also work as a “members-only” card. Hustlin'
+                                    Hardos works like this
+                                </label>
+
+                            </div>
+                        </article>
+                    </div>
+                    <div class="ac">
+                        <input class="ac-input" id="ac-3" name="ac-3" type="checkbox" />
+                        <label class="ac-label fw-semibold fs_24" for="ac-3">How much is a Hustlin' Hardo NFT?</label>
+
+                        <article class="ac-text">
+                            <p class="ps-4 fw-normal fs_16 px-5">NFT stands for “Non-fungible token,” which means that
+                                it’s a unique, digital
+                                item with
+                                blockchain-managed
+                                ownership that
+                                users can buy, own, and trade. Some NFT’s fundamental function is to be digital art. But
+                                they can also offer
+                                additional
+                                benefits like exclusive access to websites, event tickets, game items, and ownership
+                                records
+                                for physical
+                                objects. Think
+                                of it as a unique piece of art that can also work as a “members-only” card. Hustlin'
+                                Hardos
+                                works like this
+                            </p>
+                        </article>
+                    </div>
+                    <div class="ac">
+                        <input class="ac-input" id="ac-4" name="ac-4" type="checkbox" />
+                        <label class="ac-label fw-semibold fs_24" for="ac-4">Where can I mint a Hustlin' Hardos
+                            NFT?</label>
+
+                        <article class="ac-text">
+                            <p class="fw-normal fs_16 ps-5 px-4">NFT stands for “Non-fungible token,” which means that
+                                it’s a unique, digital
+                                item with
+                                blockchain-managed
+                                ownership that
+                                users can buy, own, and trade. Some NFT’s fundamental function is to be digital art. But
+                                they can also offer
+                                additional
+                                benefits like exclusive access to websites, event tickets, game items, and ownership
+                                records
+                                for physical
+                                objects. Think
+                                of it as a unique piece of art that can also work as a “members-only” card. Hustlin'
+                                Hardos
+                                works like this
+                            </p>
+                        </article>
+                    </div>
+                    <div class="ac">
+                        <input class="ac-input" id="ac-5" name="ac-5" type="checkbox" />
+                        <label class="ac-label fw-semibold fs_24" for="ac-5">How do I mint a Hustlin' Hardo NFT?</label>
+
+                        <article class="ac-text">
+                            <p class="ps-4 fw-normal fs_16 px-4 ps-5">NFT stands for “Non-fungible token,” which means
+                                that it’s a unique, digital
+                                item with
+                                blockchain-managed
+                                ownership that
+                                users can buy, own, and trade. Some NFT’s fundamental function is to be digital art. But
+                                they can also offer
+                                additional
+                                benefits like exclusive access to websites, event tickets, game items, and ownership
+                                records
+                                for physical
+                                objects. Think
+                                of it as a unique piece of art that can also work as a “members-only” card. Hustlin'
+                                Hardos
+                                works like this
+                            </p>
+                        </article>
+                    </div>
+                    <div class="ac">
+                        <input class="ac-input" id="ac-6" name="ac-6" type="checkbox" />
+                        <label class="ac-label fw-semibold fs_24 " for="ac-6">How many Hustlin' Hardos NFTs will there
+                            be?</label>
+
+                        <article class="ac-text">
+                            <p class="ps-4 fw-normal fs_16 px-4 ps-4">NFT stands for “Non-fungible token,” which means
+                                that it’s a unique, digital
+                                item with
+                                blockchain-managed
+                                ownership that
+                                users can buy, own, and trade. Some NFT’s fundamental function is to be digital art. But
+                                they can also offer
+                                additional
+                                benefits like exclusive access to websites, event tickets, game items, and ownership
+                                records
+                                for physical
+                                objects. Think
+                                of it as a unique piece of art that can also work as a “members-only” card. Hustlin'
+                                Hardos
+                                works like this
+                            </p>
+                        </article>
+                    </div>
+                    <div>
+                        <input class="ac-input" id="ac-7" name="ac-7" type="checkbox" />
+                        <label class="ac-label fw-semibold fs_24" for="ac-7">What is the utility and functionality of a
+                            Hustlin' Hardo
+                            NFT?</label>
+                        <article class="ac-text mb-0">
+                            <div class="ac-sub">
+                                <input class="ac-input" id="ac-2" name="ac-2" type="checkbx" />
+                                <label class="ps-4 fw-normal fs_16 px-5 ps-5 pb-3" for="ac-2">NFT stands for
+                                    “Non-fungible token,” which means that
+                                    it’s a
+                                    unique, digital item
+                                    with blockchain-managed ownership that
+                                    users can buy, own, and trade. Some NFT’s fundamental function is to be digital art.
+                                    But
+                                    they can also
+                                    offer additional
+                                    benefits like exclusive access to websites, event tickets, game items, and ownership
+                                    records for
+                                    physical objects. Think
+                                    of it as a unique piece of art that can also work as a “members-only” card. Hustlin'
+                                    Hardos works like
+                                    this
+                                </label>
+
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <div class="text-center py-lg-4 py-2">
+            <p class="fs_16 fw-normal ff_noto">© Hustlin' Hardos 2022</p>
+        </div>
+    </main>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.7.1/jquery.min.js"
+    integrity="sha512-v2CJ7UaYy4JwqLDIrZUI/4hqeoQieOmAZNXBeQyjo21dadnwR+8ZaIJVT8EE2iyI61OV8e6M8PP2/4hpQINQ/g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick.min.js"
+    integrity="sha512-HGOnQO9+SP1V92SrtZfjqxxtLmVzqZpjFFekvzZVWoiASSQgSr4cw9Kqd2+l8Llp4Gm0G8GIFJ4ddwZilcdb8A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+
+<script>
+    $('.responsive').slick({
+        dots: false,
+        infinite: true,
+        speed: 400,
+        autoplay: false,
+        slidesToShow: 3,
+        slidesToScroll: 1,
+        nextArrow: ".next",
+        prevArrow: ".prev",
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+</script>
+<script>
+    $('.slider').slick({
+        dots: false,
+        infinite: true,
+        speed: 400,
+        autoplay: false,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        nextArrow: ".next2",
+        prevArrow: ".prev2",
+
+        responsive: [
+            {
+                breakpoint: 1200,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 1,
+                    infinite: true,
+
+                }
+            },
+            {
+                breakpoint: 1024,
+                settings: {
+                    slidesToShow: 2,
+                    slidesToScroll: 2,
+
+                }
+            },
+            {
+                breakpoint: 600,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+
+                }
+            },
+            {
+                breakpoint: 480,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+
+                }
+            }
+            // You can unslick at a given breakpoint now by adding:
+            // settings: "unslick"
+            // instead of a settings object
+        ]
+    });
+</script>
+<script>
+    // Set the date we're counting down to
+    var countDownDate = new Date("Jan 5, 2030 15:37:25").getTime();
+
+    // Update the count down every 1 second
+    var x = setInterval(function () {
+
+        // Get today's date and time
+        var now = new Date().getTime();
+
+        // Find the distance between now and the count down date
+        var distance = countDownDate - now;
+
+        // Time calculations for days, hours, minutes and seconds
+        var days = Math.floor(distance / (1000 * 430 * 400 * 24));
+        var hours = Math.floor((distance % (1000 * 50 * 50 * 24)) / (1000 * 60 * 60));
+        var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+        var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+
+        // Display the result in the element with id="demo"
+        document.getElementById("demo").innerHTML = days + ":" + hours + ":"
+            + minutes + ":" + seconds + " ";
+
+        // If the count down is finished, write some text
+        if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+        }
+    }, 1000);
+</script>
+
+</html>
